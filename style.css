@@ -1,0 +1,86 @@
+body{
+margin-left: 300px;
+margin-right: 300px;
+    /*Color de fondo
+    background-color: hwb(240 95% 0%);
+  background: no-repeat center/20000% url(https://static.vecteezy.com/system/resources/thumbnails/010/081/683/small/abstract-gradient-blue-light-background-free-vector.jpg)*/
+  font-family: "Montserrat", sans-serif;
+  background: lineal-gradient(#ffffff,#c1c2ca);
+}
+h3 
+{ /*color de texto*/
+    color: blue;
+}
+
+h2
+{
+    color: rgb(29, 29, 107);
+}
+
+/* Redondear imagenes = border rodious:5px*/
+
+/* Editar todas las imagenes por igual=
+img{width:20%}*/
+
+/* Editar imagenes por separado*/
+
+#marketero{
+   
+    width: 107%;
+ 
+}
+
+#marketeros{
+    center/: 150%;
+    width: 107%;
+}
+
+#mkt-digital{
+    center/: 100%;
+    width: 107%;
+}
+
+#celularmegafono{
+    center/: 60%;
+    width: 107%;
+}
+
+#target{
+    center/: 100%;
+    width: 5%;
+
+}
+
+/* Editar div del menú */
+.menu {
+    /* "hazte flexible Div flexible para moverse con los elementos*/
+display: flex;
+/* #con esa flexibilidad, conviertete en una columna*/
+flex-direction: row;
+padding: 1px 10px;
+align-items: center;
+/*ANCLAS DEL MENU*/
+a {
+    /*COLOR DE TEXTO*/
+    color: rgb(255, 255, 255);
+      /*VIÑETAS*/  
+      text-decoration: none;
+      background-color: blue;
+    padding: 5px 73px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+a:hover{
+    background-color: rgb(2, 2, 125);
+    color: #e2e3e8;
+}
+
+#container {
+    background-color: #c1c2ca;
+    justify-content: center;
+}}
+
+#chicamarketing{
+    width: 107%;
+}
